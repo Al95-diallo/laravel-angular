@@ -8,6 +8,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { ResponsResetComponent } from './components/password/respons-reset/respons-reset.component';
+import { RequestResetComponent } from './components/password/request-reset/request-reset.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ResponsResetComponent } from './components/password/respons-reset/respo
     LoginComponent,
     SignupComponent,
     ProfileComponent,
-    ResponsResetComponent
+    ResponsResetComponent,
+    RequestResetComponent
   ],
   imports: [
     BrowserModule,
